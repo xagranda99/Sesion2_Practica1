@@ -13,6 +13,8 @@
 		5D31AE132CC01E840042741D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5D31AE122CC01E840042741D /* Base */; };
 		5D31AE152CC01E870042741D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D31AE142CC01E870042741D /* Assets.xcassets */; };
 		5D31AE182CC01E870042741D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5D31AE172CC01E870042741D /* Base */; };
+		5D31AE212CC01F680042741D /* newViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D31AE1F2CC01F680042741D /* newViewController.swift */; };
+		5D31AE222CC01F680042741D /* newViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D31AE202CC01F680042741D /* newViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5D31AE142CC01E870042741D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D31AE172CC01E870042741D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D31AE192CC01E870042741D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D31AE1F2CC01F680042741D /* newViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newViewController.swift; sourceTree = "<group>"; };
+		5D31AE202CC01F680042741D /* newViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = newViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				5D31AE0D2CC01E840042741D /* SceneDelegate.swift */,
 				5D31AE0F2CC01E840042741D /* ViewController.swift */,
 				5D31AE112CC01E840042741D /* Main.storyboard */,
+				5D31AE1F2CC01F680042741D /* newViewController.swift */,
+				5D31AE202CC01F680042741D /* newViewController.xib */,
 				5D31AE142CC01E870042741D /* Assets.xcassets */,
 				5D31AE162CC01E870042741D /* LaunchScreen.storyboard */,
 				5D31AE192CC01E870042741D /* Info.plist */,
@@ -128,6 +134,7 @@
 				5D31AE152CC01E870042741D /* Assets.xcassets in Resources */,
 				5D31AE182CC01E870042741D /* Base in Resources */,
 				5D31AE132CC01E840042741D /* Base in Resources */,
+				5D31AE222CC01F680042741D /* newViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 				5D31AE102CC01E840042741D /* ViewController.swift in Sources */,
 				5D31AE0C2CC01E840042741D /* AppDelegate.swift in Sources */,
 				5D31AE0E2CC01E840042741D /* SceneDelegate.swift in Sources */,
+				5D31AE212CC01F680042741D /* newViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
