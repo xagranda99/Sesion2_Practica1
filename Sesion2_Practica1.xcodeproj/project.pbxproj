@@ -15,6 +15,7 @@
 		5D31AE182CC01E870042741D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5D31AE172CC01E870042741D /* Base */; };
 		5D31AE212CC01F680042741D /* newViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D31AE1F2CC01F680042741D /* newViewController.swift */; };
 		5D31AE222CC01F680042741D /* newViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D31AE202CC01F680042741D /* newViewController.xib */; };
+		5D31AE242CC026BF0042741D /* Moneda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D31AE232CC026BF0042741D /* Moneda.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		5D31AE192CC01E870042741D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D31AE1F2CC01F680042741D /* newViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newViewController.swift; sourceTree = "<group>"; };
 		5D31AE202CC01F680042741D /* newViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = newViewController.xib; sourceTree = "<group>"; };
+		5D31AE232CC026BF0042741D /* Moneda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moneda.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				5D31AE1F2CC01F680042741D /* newViewController.swift */,
 				5D31AE202CC01F680042741D /* newViewController.xib */,
 				5D31AE142CC01E870042741D /* Assets.xcassets */,
+				5D31AE232CC026BF0042741D /* Moneda.swift */,
 				5D31AE162CC01E870042741D /* LaunchScreen.storyboard */,
 				5D31AE192CC01E870042741D /* Info.plist */,
 			);
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D31AE242CC026BF0042741D /* Moneda.swift in Sources */,
 				5D31AE102CC01E840042741D /* ViewController.swift in Sources */,
 				5D31AE0C2CC01E840042741D /* AppDelegate.swift in Sources */,
 				5D31AE0E2CC01E840042741D /* SceneDelegate.swift in Sources */,
@@ -300,6 +304,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98Y76MU84K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Sesion2_Practica1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -327,6 +332,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98Y76MU84K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Sesion2_Practica1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

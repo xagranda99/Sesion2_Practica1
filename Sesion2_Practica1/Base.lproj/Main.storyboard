@@ -16,9 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ovu-WK-Jez">
-                                <rect key="frame" x="178" y="225" width="52" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KyG-7r-BvE">
+                                <rect key="frame" x="125" y="209" width="143" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Lanzar moneda"/>
+                                <connections>
+                                    <action selector="lanzarMoneda:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="bfH-0I-s5t"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cara" translatesAutoresizingMaskIntoConstraints="NO" id="5Xe-vz-QRc">
+                                <rect key="frame" x="101" y="344" width="191" height="132.33333333333337"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ha salido..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ovu-WK-Jez">
+                                <rect key="frame" x="113" y="556.33333333333337" width="168" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -26,7 +36,22 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5Xe-vz-QRc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="101" id="Fl9-Wg-W3c"/>
+                            <constraint firstItem="5Xe-vz-QRc" firstAttribute="top" secondItem="KyG-7r-BvE" secondAttribute="bottom" constant="100" id="HTP-OA-dOs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ovu-WK-Jez" secondAttribute="trailing" constant="112" id="OfS-HG-JGb"/>
+                            <constraint firstItem="Ovu-WK-Jez" firstAttribute="top" secondItem="5Xe-vz-QRc" secondAttribute="bottom" constant="80" id="a0o-Vo-jIn"/>
+                            <constraint firstItem="KyG-7r-BvE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="125" id="hOb-ed-mwt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KyG-7r-BvE" secondAttribute="trailing" constant="125" id="iWR-V9-V8A"/>
+                            <constraint firstItem="Ovu-WK-Jez" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="113" id="koi-IK-1fX"/>
+                            <constraint firstItem="KyG-7r-BvE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="lhR-qO-w7C"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5Xe-vz-QRc" secondAttribute="trailing" constant="101" id="tu3-7C-f0f"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="5Xe-vz-QRc" id="QNj-lz-hgC"/>
+                        <outlet property="resultadoLabel" destination="Ovu-WK-Jez" id="bbL-1O-h9v"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -34,6 +59,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="cara" width="133.66667175292969" height="132.33332824707031"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
